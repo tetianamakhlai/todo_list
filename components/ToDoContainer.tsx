@@ -2,7 +2,7 @@ import React from "react";
 import { Typography, TextField, Button } from "@mui/material";
 import ToDoItem from "./ToDoItem";
 
-import { todoStore } from "../store/index.ts";
+import { todoStore } from "../store/index";
 
 function ToDoContainer() {
   const todos = todoStore((state) => state.todos);
